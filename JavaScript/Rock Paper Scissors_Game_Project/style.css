@@ -1,0 +1,111 @@
+/*.heading{
+ color: red;
+ background-color: yellow;
+  font-size: medium;
+}
+
+#button{
+    background-color: blueviolet;
+     color: blue;
+}
+ 
+body{
+  background-color: pink;
+}*/
+/*#box{
+  height:100px;
+  width:100px;
+  background-color: greenyellow;
+};*/
+/*.content{
+  color: red;
+}
+.newClass{
+  background-color: yellow;
+}*/
+/*#btn1{
+  background-color: red;
+  color: white;
+}
+
+.dark{
+  background-color: black;
+  text-color: white;
+}
+
+.light{
+  background-color: white;
+  text-color: black;
+}
+*/
+
+ 
+*{
+  margin:0;   
+  padding:0;
+  text-align: center;
+}
+
+h1{
+  background-color: #081b31;
+  color: #fff;
+  height: 5rem;
+  text-align: centre;
+  line-height: 5rem;
+}
+
+.choice {
+  height: 165px;
+  width: 165;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.choice:hover{
+  /*opacity: 0.5;  blur circle when hover*/
+  cursor: pointer;
+  background-color: #081b31;
+}
+img {
+   height: 160px;
+   width: 160px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
+.choices{
+  display: flex; /*change vertical to horizontal*/
+  justify-content: center;
+  align-items: center; /* also text*/
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* also text*/
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+#User-score, #comp-score{
+  font-size: 4rem;
+}
+
+.msg-container{
+  margin-top: 5rem;
+}
+
+#msg {
+  margin-top: 5rem;
+  background-color: #081b31;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
