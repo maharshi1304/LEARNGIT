@@ -1,25 +1,3 @@
-/*const URL = "https://cat-fact.herokuapp.com/facts";
-
-const getFacts = async () => {
-console.log("Fetching data from the server");
-let response = await fetch(URL);
-console.log(response);// JSON data --JavaScript Object Notation
-let data = await response.json();
-console.log(data,[0]);
-};*/
-
-/*function getFacts() {
-  console.log("Fetching data from the server");
-  fetch(URL)
-    .then((response) => {
-      console.log(response);
-      return response.json();
-    })
-    .then((data) => {
-      console.log(data);
-    });
-}*/
-
 const BASE_URL =
   "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies";
 
